@@ -1,3 +1,7 @@
+/* Homework1 implements a two value calculator with operators +, -, *, and /
+ * Author: Peter Oostema
+ * Date: September 29, 2016
+ */
 package edu.calvin.pno2.lab02;
 
 import android.app.Activity;
@@ -22,10 +26,7 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import java.text.NumberFormat;
 
 import static edu.calvin.pno2.lab02.R.*;
-/* Homework1 implements a two value calculator with operators +, -, *, and /
- * Author: Peter Oostema
- * Date: September 29, 2016
- */
+
 public class MainActivity extends Activity implements View.OnClickListener {
 
     private EditText valueEditText;
